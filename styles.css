@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 2% 4%;
+  padding: 0;
+}
+
+section {
+  border: 3px solid rgb(194, 189, 189);
+  padding: 20px;
+  margin: 15px 0;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+header h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+}
+
+.colors {
+  font-family: "Roboto", sans-serif;
+}
+
+.color-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 200px;
+  width: 350px;
+  margin-right: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.woodsmoke {
+  background-color: rgb(11, 12, 15);
+  color: rgb(255, 255, 255);
+}
+
+.ebony-clay {
+  background-color: rgb(31, 40, 51);
+  color: white;
+}
+
+.silver-sand {
+  background-color: rgb(197, 198, 199);
+}
+
+.aqua-marine {
+  background-color: rgb(102, 252, 241);
+}
+
+.keppel {
+  background-color: rgb(69, 162, 158);
+}
+
+.banana-mania {
+  background-color: rgb(251, 232, 166);
+}
+
+.sandy-brown {
+  background-color: rgb(244, 151, 108);
+}
+
+.rhino {
+  background-color: #303c6c;
+}
+
+.powder-blue {
+  background-color: #b4dfe5;
+}
+
+.oyster-bay {
+  background-color: #d2fdff;
+}
+
+.color-label,
+.color-hex {
+  display: block;
+  margin: 10px;
+}
+
+/******************* FONTS ******************/
+.heading {
+  font-size: 40px;
+  font-size: 200;
+  text-decoration: underline;
+}
+
+.font-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.font-box {
+  width: 45%;
+  font-size: 30px;
+}
+
+.roboto {
+  font-family: "Roboto";
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.open-sans {
+  font-family: "Open Sans";
+}
+
+.lato {
+  font-family: "Lato";
+}
+
+.source-sans-pro {
+  font-family: "Source Sans Pro";
+}
+
+ul li {
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+}
+
+.subheading h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "Open Sans";
+}
